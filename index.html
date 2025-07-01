@@ -6,8 +6,667 @@
     <title>Hockey Broad</title>
     <link rel="shortcut icon" href="Images/ice-hockey.png" type="image/x-icon">
     <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- daisy ui -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <style>
+        .font-manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+     </style>
 </head>
-<body>
+<body class="font-manrope">
+  <header>
+    <!-- nav bar -->
+     <div class="navbar mt-4 container mx-auto ">
+  <div class="navbar-start">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+      </div>
+      <ul
+        tabindex="0"
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+        <li>
+            <span>Home</span>
+        </li>
+        <li>About</li>
+        <li>Pages</li>
+        <li>Blog</li>
+        <li>Contact</li>
+
+      </ul>
+    </div>
+    <a class="btn btn-ghost text-xl">Hockey<span class="text-[#FF4240]">'</span>s</a>
+  </div>
+  <div class="navbar-center hidden lg:flex ">
+    <ul class="menu menu-horizontal px-1 flex items-center justify-center gap-4 font-bold">
+        <li class="active">
+            <span class="text-[#FF4240]">Home</span>
+        </li>
+        <li class="text-[#424247]">About</li>
+        <li class="text-[#424247]">Pages</li>
+        <li class="text-[#424247]">Blog</li>
+        <li class="text-[#424247]">Contact</li>
+
+    </ul>
+  </div>
+  <div class="navbar-end">
+    <img src="Images/Frame.png" alt="">
+    <a class="btn bg-[#FF4240] text-white">Get Ticket</a>
+  </div>
+</div>
+<!-- banner -->
+ <div class="container mx-auto h-[600px]">
+  <div class="carousel mb-0 ">
+  <div id="slide1" class="carousel-item relative w-full ">
+    <img
+      src="Images/1.png"
+      class="w-full h-[530px] rounded-2xl" />
+    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+      <a href="#slide4" class="btn btn-circle">❮</a>
+      <a href="#slide2" class="btn btn-circle">❯</a>
+    </div>
+  </div>
+  <div id="slide2" class="carousel-item relative w-full ">
+    <img
+      src="Images/alyssa-coulter-M04pjbxYJQ8-unsplash.jpg"
+      class="w-full h-[530px] rounded-2xl" />
+    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+      <a href="#slide1" class="btn btn-circle">❮</a>
+      <a href="#slide3" class="btn btn-circle">❯</a>
+    </div>
+  </div>
+  <div id="slide3" class="carousel-item relative w-full">
+    <img
+      src="Images/charles-gr-Ye_QteEDO5U-unsplash.jpg"
+      class="w-full h-[530px] rounded-2xl" />
+    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+      <a href="#slide2" class="btn btn-circle">❮</a>
+      <a href="#slide4" class="btn btn-circle">❯</a>
+    </div>
+  </div>
+  <div id="slide4" class="carousel-item relative w-full">
+    <img
+      src="Images/taylor-friehl-2l5TYOv6YeQ-unsplash.jpg"
+      class="w-full h-[530px] rounded-2xl" />
+    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+      <a href="#slide3" class="btn btn-circle">❮</a>
+      <a href="#slide1" class="btn btn-circle">❯</a>
+    </div>
+  </div>
+
+</div>
+
+ <div class="bg-black w-full lg:w-[550px] h-[130px] -translate-y-2  lg:-translate-y-40 my-4 lg:my-0  translate-x-0 lg:translate-x-full rounded-2xl py-3 px-5">
+   <h2 class="text-2xl text-white font-extrabold">Meet all the heroes from the field</h2>
+  <p class="text-[#FFFFFF] text-base opacity-60">
+    Discover the inspiring stories and achievements of top hockey players. Join us to celebrate their passion, skill, and dedication to the sport.
+  </p>
+
+ </div>
+
+
+ </div>
+ 
+  </header>
+  <main class="container mx-auto ">
+    <!-- club section  -->
+     <hr class=" my-30 lg:my-20 lg:mx-20 mx-4 border-[#131318] opacity-20 border mb-20">
+     <div class="mt-0 ">
+      <h2 class="text-3xl font-bold text-center">Professional Hockeys Club</h2>
+      <p class="text-center text-[#424247] opacity-60 mt-2">
+        Explore our club's legacy, achievements, and commitment to excellence in professional hockey.
+      </p>
+    <hr class=" my-16 lg:mx-20 mx-4 border-[#131318] opacity-20 border ">
+     </div>
+
+
+     <!-- rating section -->
+
+     <section>
+      <div class="px-6 lg:px-30 flex lg:flex-row flex-col items-center justify-between gap-10">
+      <div class="text-center space-y-4  h-[230px]">
+        <div class="radial-progress text-red-500 " style="--value:87;" aria-valuenow="87" role="progressbar">87%</div>
+        <h2 class="text-xl font-semibold ">Prayer Facility</h2>
+        <p class="text-base text-[#131318] opacity-60 ">Our club offers a dedicated prayer facility for players and visitors, ensuring comfort and inclusivity for all.</p>
+      </div>
+      <div class="text-center space-y-4 h-[230px]">
+        <div class="radial-progress text-[#49D293]" style="--value:95;" aria-valuenow="95" role="progressbar">95%</div>
+        <h2 class="text-xl font-semibold">Experienced Coach</h2>
+        <p class="text-base text-[#131318] opacity-60">Our club is led by highly experienced coaches dedicated to developing players' skills and fostering team success.</p>
+      </div>
+      <div class="text-center space-y-4 h-[230px]">
+        <div class="radial-progress text-[#FFB546]" style="--value:90;" aria-valuenow="90" role="progressbar">90%</div>
+        <h2 class="text-xl font-semibold">Senior Player</h2>
+        <p class="text-base text-[#131318] opacity-60">Our senior players bring leadership, experience, and a winning mentality to the team, inspiring the next generation.</p>
+      </div>
+      <div class="text-center space-y-4 h-[230px]">
+        <div class="radial-progress text-[#4C8DF1]" style="--value:80;" aria-valuenow="80" role="progressbar">80%</div>
+        <h2 class="text-xl font-semibold">Training Ground</h2>
+        <p class="text-base text-[#131318] opacity-60">Our state-of-the-art training ground provides the perfect environment for skill development and team practice.</p>
+      </div>
+          
+      </div>
+     </section>
+
+     <!-- program section -->
+      <section>
+        <hr class=" my-30 lg:my-20 lg:mx-20 mx-4 border-[#131318] opacity-20 border mb-20">
+     <div class="mt-0 ">
+      <h2 class="text-3xl font-bold text-center">Program Sections</h2>
+      <p class="text-center text-[#424247] opacity-60 mt-2">
+      Discover our diverse programs designed for all ages and skill levels,<br> including youth development, advanced training, and community engagement.
+      </p>
+      <hr class=" my-16 lg:mx-20 mx-4 border-[#131318] opacity-20 border ">
+     </div>
+      </section>
+
+      <!-- image section -->
+       <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 px-3 lg:px-20 ">
+        <!-- image 1 -->
+        <div class="bg-[linear-gradient(45deg,rgba(0,0,0,0.6),rgba(0,0,0,0.1)),url(Images/2.png)] h-[330px] rounded-2xl px-7 py-16 space-y-2">
+        <h2 class="text-xl font-extrabold text-white">Junior Program</h2>
+        <p class="text-white text-base font-medium ">
+          Our Junior Program nurtures young talent with expert <br> coaching,fun activities, and a supportive environment <br> to develop hockey skills and teamwork.
+        </p>
+        <button>
+          <a class="btn border-none bg-[#FF4240] text-white mt-4">Register Now</a>
+        </button>
+          
+        </div>
+        <!-- image2 -->
+         <div class="bg-[linear-gradient(45deg,rgba(0,0,0,0.6),rgba(0,0,0,0.1)),url(Images/3.png)] h-[330px] rounded-2xl px-7 py-16 space-y-2 ">
+          <h2 class="text-xl font-extrabold text-white">Teenager Program</h2>
+        <p class="text-white text-base font-medium ">
+          Our Teenager Program empowers young athletes with advanced training, competitive opportunities, and mentorship to enhance their skills and confidence on and off the ice.
+        </p>
+        <button>
+          <a class="btn border-none bg-[#FF4240] text-white mt-4">Register Now</a>
+        </button>
+        </div>
+        <!-- image 3 -->
+        <div class="lg:col-span-2 bg-[linear-gradient(45deg,rgba(0,0,0,0.6),rgba(0,0,0,0.1)),url(Images/4.png)] h-[400px] rounded-2xl px-7 py-10 lg:py-40 space-y-4 ">
+          <h2 class="text-xl font-extrabold text-white">Professional Program</h2>
+        <p class="text-white text-base font-medium ">
+          Our Professional Program is designed for aspiring athletes seeking <br> to excel in hockey, offering specialized training, competitive <br> leagues, and expert coaching to reach their full potential.
+        </p>
+        <button>
+          <a class="btn border-none bg-[#FF4240] text-white mt-4">Register Now</a>
+        </button>
+        </div> 
+       </div>
+
+       <!-- our new products -->
+
+        <section>
+        <hr class=" my-30 lg:my-20 lg:mx-20 mx-4 border-[#131318] opacity-20 border mb-20">
+     <div class="mt-0 ">
+      <h2 class="text-3xl font-bold text-center">Our New Products</h2>
+      <p class="text-center text-[#424247] opacity-60 mt-2">
+        Explore our latest hockey gear and equipment, designed to enhance performance and elevate your game. <br> From sticks to protective gear, we have everything you need to play like a pro.
+      </p>
+      <hr class=" my-16 lg:mx-20 mx-4 border-[#131318] opacity-20 border ">
+     </div>
+      </section>
+
+      <!-- product section -->
+
+      <section>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-5 px-4 py-3 lg:px-8">
+          <div class="hero border rounded-2xl border-[rgba(0,0,0,0.1)] ">
+            <div class="hero-content flex-col lg:flex-row">
+              <img
+                src="Images/5.png"
+                class="max-w-sm rounded-lg shadow-2xl"
+              />
+              <div>
+                <div class="flex items-center gap-4">
+                  <div class="flex items-center gap-2">
+                    <img src="Images/Frame (2).png" alt="">
+                    <p class="text-base text-[#131318] opacity-50">5.0</p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img src="Images/Frame (3).png" alt="">
+                    <p class="text-base text-[#131318] opacity-50">200</p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img src="Images/Vector.png" alt="">
+                    <p class="text-base text-[#131318] opacity-50">300</p>
+                  </div>
+                </div>
+                <h1 class="text-xl font-bold">World Cup Flags Football</h1>
+                <p class="py-3 text-base text-[#131318] opacity-60">
+                  Experience the thrill of the game with our World Cup Flags Football. <br> Crafted for performance and style, this football is perfect for both practice and play.
+                </p>
+                <div class="flex items-center gap-4">
+                  <div>
+                    <span class="text-2xl text-[#FF4240] font-bold">Price - $22.00</span>
+                  </div>
+                  <div class="flex items-center gap-2 ">
+                    <img src="Images/Frame (1).png" alt="">
+                    <p class="text-[#131318] opacity-60">Delivery Fee : Free</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- product 2 -->
+            <div class="hero border rounded-2xl border-[rgba(0,0,0,0.1)] ">
+            <div class="hero-content flex-col lg:flex-row">
+              <img
+                src="Images/7.png"
+                class="max-w-sm rounded-lg shadow-2xl"
+              />
+              <div>
+                <div class="flex items-center gap-4">
+                  <div class="flex items-center gap-2">
+                    <img src="Images/Frame (2).png" alt="">
+                    <p class="text-base text-[#131318] opacity-50">5.0</p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img src="Images/Frame (3).png" alt="">
+                    <p class="text-base text-[#131318] opacity-50">200</p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img src="Images/Vector.png" alt="">
+                    <p class="text-base text-[#131318] opacity-50">300</p>
+                  </div>
+                </div>
+                <h1 class="text-xl font-bold">Cap For Hockeys</h1>
+                <p class="py-3 text-base text-[#131318] opacity-60">
+                  Stay cool and stylish on the field with our Cap for Hockeys. <br> Designed for comfort and performance, this cap is perfect for players and fans alike.
+                </p>
+                <div class="flex items-center gap-4">
+                  <div>
+                    <span class="text-2xl text-[#FF4240] font-bold">Price - $26.00</span>
+                  </div>
+                  <div class="flex items-center gap-2 ">
+                    <img src="Images/Frame (1).png" alt="">
+                    <p class="text-[#131318] opacity-60">Delivery Fee : Free</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- product 3 -->
+            <div class="hero border rounded-2xl border-[rgba(0,0,0,0.1)] ">
+            <div class="hero-content flex-col lg:flex-row">
+              <img
+                src="Images/9.png"
+                class="max-w-sm rounded-lg shadow-2xl"
+              />
+              <div>
+                <div class="flex items-center gap-4">
+                  <div class="flex items-center gap-2">
+                    <img src="Images/Frame (2).png" alt="">
+                    <p class="text-base text-[#131318] opacity-50">4.0</p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img src="Images/Frame (3).png" alt="">
+                    <p class="text-base text-[#131318] opacity-50">100</p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img src="Images/Vector.png" alt="">
+                    <p class="text-base text-[#131318] opacity-50">200</p>
+                  </div>
+                </div>
+                <h1 class="text-xl font-bold">World Cup Halmet</h1>
+                <p class="py-3 text-base text-[#131318] opacity-60">
+                  Protect yourself in style with our World Cup Halmet.Engineered for safety and comfort, this halmet is a must-have for every hockey player.
+                </p>
+                <div class="flex items-center gap-4">
+                  <div>
+                    <span class="text-2xl text-[#FF4240] font-bold">Price - $30.00</span>
+                  </div>
+                  <div class="flex items-center gap-2 ">
+                    <img src="Images/Frame (1).png" alt="">
+                    <p class="text-[#131318] opacity-60">Delivery Fee : Free</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- product 4 -->
+            <div class="hero border rounded-2xl border-[rgba(0,0,0,0.1)] ">
+            <div class="hero-content flex-col lg:flex-row">
+              <img
+                src="Images/6.png"
+                class="max-w-sm rounded-lg shadow-2xl"
+              />
+              <div>
+                <div class="flex items-center gap-4">
+                  <div class="flex items-center gap-2">
+                    <img src="Images/Frame (2).png" alt="">
+                    <p class="text-base text-[#131318] opacity-50">5.0</p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img src="Images/Frame (3).png" alt="">
+                    <p class="text-base text-[#131318] opacity-50">900</p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img src="Images/Vector.png" alt="">
+                    <p class="text-base text-[#131318] opacity-50">300</p>
+                  </div>
+                </div>
+                <h1 class="text-xl font-bold">World Cup Flags Football</h1>
+                <p class="py-3 text-base text-[#131318] opacity-60">
+                  Experience the thrill of the game with our World Cup Flags Football. Crafted for performance and style, this football is perfect for both practice and play.
+                </p>
+                <div class="flex items-center gap-4">
+                  <div>
+                    <span class="text-2xl text-[#FF4240] font-bold">Price - $22.00</span>
+                  </div>
+                  <div class="flex items-center gap-2 ">
+                    <img src="Images/Frame (1).png" alt="">
+                    <p class="text-[#131318] opacity-60">Delivery Fee : Free</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- prosuct 5 -->
+            <div class="hero border rounded-2xl border-[rgba(0,0,0,0.1)] ">
+            <div class="hero-content flex-col lg:flex-row">
+              <img
+                src="Images/8.png"
+                class="max-w-sm rounded-lg shadow-2xl"
+              />
+              <div>
+                <div class="flex items-center gap-4">
+                  <div class="flex items-center gap-2">
+                    <img src="Images/Frame (2).png" alt="">
+                    <p class="text-base text-[#131318] opacity-50">5.0</p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img src="Images/Frame (3).png" alt="">
+                    <p class="text-base text-[#131318] opacity-50">200</p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img src="Images/Vector.png" alt="">
+                    <p class="text-base text-[#131318] opacity-50">300</p>
+                  </div>
+                </div>
+                <h1 class="text-xl font-bold">World Cup Jurcey</h1>
+                <p class="py-3 text-base text-[#131318] opacity-60">
+                  Show your support with our World Cup Jurcey. Made from high-quality materials, this jurcey is perfect for fans and players alike.
+                </p>
+                <div class="flex items-center gap-4">
+                  <div>
+                    <span class="text-2xl text-[#FF4240] font-bold">Price - $22.00</span>
+                  </div>
+                  <div class="flex items-center gap-2 ">
+                    <img src="Images/Frame (1).png" alt="">
+                    <p class="text-[#131318] opacity-60">Delivery Fee : Free</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- product 6 -->
+            <div class="hero border rounded-2xl border-[rgba(0,0,0,0.1)] ">
+            <div class="hero-content flex-col lg:flex-row">
+              <img
+                src="Images/10.png"
+                class="max-w-sm rounded-lg shadow-2xl"
+              />
+              <div>
+                <div class="flex items-center gap-4">
+                  <div class="flex items-center gap-2">
+                    <img src="Images/Frame (2).png" alt="">
+                    <p class="text-base text-[#131318] opacity-50">5.0</p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img src="Images/Frame (3).png" alt="">
+                    <p class="text-base text-[#131318] opacity-50">200</p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img src="Images/Vector.png" alt="">
+                    <p class="text-base text-[#131318] opacity-50">300</p>
+                  </div>
+                </div>
+                <h1 class="text-xl font-bold">World Cup Football</h1>
+                <p class="py-3 text-base text-[#131318] opacity-60">
+                  Experience the thrill of the game with our World Cup Football. Crafted for performance and style, this football is perfect for both practice and play.
+                </p>
+                <div class="flex items-center gap-4">
+                  <div>
+                    <span class="text-2xl text-[#FF4240] font-bold">Price - $22.00</span>
+                  </div>
+                  <div class="flex items-center gap-2 ">
+                    <img src="Images/Frame (1).png" alt="">
+                    <p class="text-[#131318] opacity-60">Delivery Fee : Free</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--client section  -->
+       <section>
+        <hr class=" my-30 lg:my-20 lg:mx-20 mx-4 border-[#131318] opacity-20 border mb-20">
+     <div class="mt-0 ">
+      <h2 class="text-3xl font-bold text-center">Clients Question</h2>
+      <p class="text-center text-[#424247] opacity-60 mt-2">
+        Explore our clients' questions and find answers to common inquiries about our hockey programs, products, and services. <br> We're here to help you get the most out of your hockey experience.
+      </p>
+      <hr class=" my-16 lg:mx-20 mx-4 border-[#131318] opacity-20 border ">
+     </div>
+      </section>
+
+      <!-- client question section -->
+
+      <div class="flex flex-col lg:flex-row items-center justify-between gap-10 px-4 lg:px-20 border p-5 border-[rgba(16,19,19,0.094)] rounded-xl">
+        <div>
+          <img src="Images/11.png" alt="">
+        </div>
+        <div>
+          <div class="collapse collapse-plus bg-base-100 border mb-4 border-base-300">
+            <input type="radio" name="my-accordion-3" checked="checked" />
+            <div class="collapse-title font-semibold">Our Equipment</div>
+            <div class="collapse-content text-sm">We provide high-quality hockey sticks, helmets, pads, and other essential gear to ensure safety and performance for all players.</div>
+          </div>
+          <div class="collapse collapse-plus bg-base-100 mb-4 border border-base-300">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title font-semibold">Private Lessons</div>
+            <div class="collapse-content text-sm">Our private lessons offer personalized coaching tailored to your skill level and goals, helping you improve faster and gain confidence on the ice.</div>
+          </div>
+          <div class="collapse collapse-plus bg-base-100 border border-base-300">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title font-semibold">Sky Touring</div>
+            <div class="collapse-content text-sm">Our sky touring program offers guided tours and training for all levels, ensuring a safe and enjoyable experience in the snow.</div>
+          </div>
+          <div class="collapse collapse-plus bg-base-100 border border-base-300">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title font-semibold">Booking</div>
+            <div class="collapse-content text-sm">You can book our facilities and programs easily through our website or by contacting our support team. Flexible scheduling options are available to suit your needs.</div>
+          </div>
+          <div class="collapse collapse-plus bg-base-100 border border-base-300">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title font-semibold">Pricings</div>
+            <div class="collapse-content text-sm">Our pricing is competitive and transparent. Please visit our pricing page or contact us for detailed information on program and equipment costs.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- touch section -->
+
+      <section>
+        <hr class=" my-30 lg:my-20 lg:mx-20 mx-4 border-[#131318] opacity-20 border mb-20">
+     <div class="mt-0 ">
+      <h2 class="text-3xl font-bold text-center">Get In Touch</h2>
+      <p class="text-center text-[#424247] opacity-60 mt-2">
+        Have questions or need assistance? <br> Contact us today to learn more about our hockey programs, products, and services. We're here to help you every step of the way.
+      </p>
+      <hr class=" my-16 lg:mx-20 mx-4 border-[#131318] opacity-20 border ">
+     </div>
+      </section>
+
+      <!-- massage section -->
+
+      <section class="px-4 lg:px-20">
+       <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 ">
+         <div class=" border p-3 lg:p-6 rounded-2xl space-y-4 border-[rgba(19,19,24,0.1)] ">
+          <div class="bg-[rgba(188,237,109,0.1)] rounded-2xl p-5 lg:p-10 space-y-4 mb-3 ">
+            <img src="Images/Group 1171275317.png" alt="">
+            <p>Phone Number :</p>
+            <h2>(+62) 123-321-543</h2>
+          </div>
+          <div class="bg-[rgba(253,221,95,0.1)] rounded-2xl p-5 lg:p-10 space-y-4 mb-3 ">
+            <img src="Images/Group 1171275318.png" alt="">
+            <p>Email</p>
+            <h2>Yasra.sammah.sam@gmail.com</h2>
+          </div>
+          <div class="bg-[rgba(98,156,243,0.1)] rounded-2xl p-5 lg:p-10 space-y-4 ">
+            <img src="Images/Group 1171275321.png" alt="">
+            <p>Location:</p>
+            <h2>Bangladesh</h2>
+          </div>
+        </div>
+        <div>
+          <form class="space-y-4 ">
+           <div class="grid grid-cols-1 lg:grid-cols-2  gap-4">
+          
+            <div class="col-span-1">
+              <fieldset class="fieldset">
+              <legend class="fieldset-legend">Your Name:</legend>
+              <input type="text" class="input bg-[rgba(19,19,24,0.03)]" placeholder="Type Your Name:" />
+              
+            </fieldset>
+             
+            </div>
+             <div class="col-span-1">
+              <fieldset class="fieldset">
+              <legend class="fieldset-legend">Your Email:</legend>
+              <input type="text" class="input bg-[rgba(19,19,24,0.03)]" placeholder="Type Your Email:" />
+              
+            </fieldset>
+             
+            </div>
+             <div class="col-span-1">
+              <fieldset class="fieldset">
+              <legend class="fieldset-legend">Subject:</legend>
+              <input type="text" class="input bg-[rgba(19,19,24,0.03)]" placeholder="Type Your Subject:" />
+              
+            </fieldset>
+             
+            </div>
+             <div class="col-span-1">
+              <fieldset class="fieldset">
+              <legend class="fieldset-legend">Your Number:</legend>
+              <input type="text" class="input bg-[rgba(19,19,24,0.03)]" placeholder="Type Your Number:" />
+              
+            </fieldset>
+             
+            </div>
+             <div class="col-span-2" >
+             <fieldset class="fieldset">
+                <legend class="fieldset-legend">Message</legend>
+                <textarea class="textarea w-full h-64 bg-[rgba(19,19,24,0.03)]" placeholder="Message"></textarea>
+                <button class="btn mt-5 bg-red-600 text-white w-full">Send Message</button>
+              </fieldset>
+             
+            </div>
+           
+            
+            
+           </div>
+           
+           
+           
+          </form>
+          
+        </div>
+       </div>
+       
+      </section>
+  </main>
+<footer>
+   <div class="bg-[rgba(19,19,24,0.03)] container mx-auto mt-8  px-4 lg:px-20 rounded-2xl py-10">
+    <p class="text-center text-[#131318] text-2xl font-extrabold mb-4">
+      Social Media Links
+    </p>
+    <div>
+       <nav class=" flex justify-center gap-6 items-center mx-auto">
+    <a>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        class="fill-current">
+        <path
+          d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
+      </svg>
+    </a>
+    <a>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        class="fill-current">
+        <path
+          d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
+      </svg>
+    </a>
+    <a>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        class="fill-current">
+        <path
+          d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
+      </svg>
+    </a>
+    <a >
+      <img src="Images/instagram.png" alt="" class="w-6 h-6">
+    </a>
+  </nav>
+    </div>
+   </div> 
+  <div class=" bg-black text-white mt-10 flex justify-around items-center  px-32 py-24 ">
+  <div>
+      <h2 class="font-extrabold text-2xl">Get In Touch</h2>
+      <p>Des: Bangladesh, Yasra.sammah.sam@gmail.com, <br> (+62) 123-321-543</p>
+  </div>
+  <div class="sm:footer-horizontal flex gap-9 list-none flex-wrap lg:flex-row  bg-neutral text-neutral-content p-10">
+       <nav>
+    <h6 class="footer-title">Company</h6>
+    <a class="link link-hover"><li>Branding</li></a>
+    <a class="link link-hover"><li>Design</li></a>
+    <a class="link link-hover"><li>Marketing</li></a>
+    <a class="link link-hover"><li>Advertisement</li></a>
+  </nav>
+  <nav>
+    <h6 class="footer-title">Support</h6>
+    <a class="link link-hover"><li>HelpCenter</li></a>
+    <a class="link link-hover"><li>Terms of Service</li></a>
+    <a class="link link-hover"><li>Legal</li></a>
+    <a class="link link-hover"><li>Privacy Policy</li></a>
+  </nav>
+  <nav>
+    <h6 class="footer-title">Services</h6>
+    <a class="link link-hover"><li>Academy</li></a>
+    <a class="link link-hover"><li>Training</li></a>
+    <a class="link link-hover"><li>Coaching</li></a>
+    <a class="link link-hover"><li>Community</li></a>
+  </nav>
+  </div>
+  </div> 
+    
+ 
+</footer>
     
 </body>
 </html>
